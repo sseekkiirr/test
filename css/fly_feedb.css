@@ -1,0 +1,206 @@
+
+/*
+start feedb_form
+*/
+	.feedb_form_fly{
+		width: 600px;
+		top: 50%;
+		left: 50%;
+		margin-left: -300px;
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%); 
+	    -webkit-transform: translateY(-50%); 
+	    -o-transform: translateY(-50%); 
+	    background-color: #fff;
+	    border-radius: 20px;
+	    padding-top: 20px;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    padding-bottom: 40px;
+	}
+.feedb_family{
+	display: none;
+}
+.error_field{
+	background-color: #DC5252!important;
+}
+.error_field[type=radio],
+.error_field[type=checkbox]{
+	box-shadow: 0px 0px 15px 0px rgba(255,0,0,1), 0px 0px 5px 0px rgba(255,0,0,1);
+}
+.feedb_form_fly  input[type=checkbox]{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	padding: 0!important;
+}
+.feedb_form_fly  input[type=checkbox]:hover{
+	cursor: pointer;
+}
+.feedb_shadow{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9000;
+	background-color: rgba(0,0,0,0.5);
+}
+.feedb_form_fly{
+	display: none;
+	position: fixed;
+ 	box-shadow: 0px 0px 10px 0px black;
+ 	z-index: 9001;
+}
+.feedb_form_fly input,
+.feedb_form_fly textarea{
+	width: 100%;
+	border: 1px solid rgba(200,200,200,1);
+	margin-bottom: 20px;
+	outline: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.feedb_form_fly input{
+	height: 40px;
+}
+.feedb_form_fly .js_checkbox_group input,
+.feedb_form_fly .js_radio_group input{
+	position: relative;
+	float: left;
+	height: 14px;
+	width: 14px;
+	border-radius: 100%;
+	line-height: 14px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	/*top: 1px;*/
+}
+.feedb_form_fly label{
+	position: relative;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 10px;
+}
+.feedb_form_fly hr{
+	display: block;
+	height: 1px;
+	position: relative;
+	float: left;
+	width: 100%;
+	opacity: 0;
+}
+.feedb_form_fly textarea{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 90px;
+	resize:none;
+}
+.feedb_fly_form_send_key{
+	position: relative;
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+}
+.feedb_fly_form_send_key p{
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.feedb_close_key_container{
+	position: relative;
+	float: right;
+	margin-top: -10px;
+	/*border-radius: 100%;*/
+	/*box-shadow: 0px 0px 0px 1px rgba(200,200,200,1);*/
+	margin-bottom: 10px;
+}
+.feedb_close_key_container p{
+	font-family: "Arial", Sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	margin: 0!important;
+	color: #818181;
+	text-decoration: underline;
+}
+.feedb_close_key_container:hover{
+	cursor: pointer;
+}
+.feedb_close_key_container:hover p{
+	text-decoration: none;
+}
+.js_agree_field {
+    position: relative;
+    float: left;
+    width: 15px!important;
+    height: 15px!important;
+    top: 1px;
+    margin-right: 10px;
+}
+/*
+end feedb_form
+*/
+
+@media only screen and (min-width: 1201px) and (max-width: 12000px){
+/*	.feedb_form_fly{
+		width: 600px;
+		top: 50%;
+		left: 50%;
+		margin-left: -300px;
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%); 
+	    -webkit-transform: translateY(-50%); 
+	    -o-transform: translateY(-50%); 
+	    background-color: #fff;
+	    border-radius: 20px;
+	    padding-top: 20px;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    padding-bottom: 40px;
+	}*/
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+/*	.feedb_form_fly{
+		width: 600px;
+		top: 50%;
+		left: 50%;
+		margin-left: -300px;
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%); 
+	    -webkit-transform: translateY(-50%); 
+	    -o-transform: translateY(-50%); 
+	    background-color: #fff;
+	    border-radius: 20px;
+	    padding-top: 20px;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    padding-bottom: 40px;
+	}*/
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+/*	.feedb_form_fly{
+		width: 100%;
+		top: 0px;
+		left: 0px;
+	    background-color: #fff;
+	    padding-top: 10px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    padding-bottom: 20px;
+	}*/
+}
+@media only screen and (min-width: 0px) and (max-width: 480px){
+/*	.feedb_form_fly{
+		width: 100%;
+		top: 0px;
+		left: 0px;
+	    background-color: #fff;
+	    padding-top: 10px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    padding-bottom: 20px;
+	}*/
+}

@@ -1,0 +1,50 @@
+/*
+start js_fix_slider
+*/
+.js_fix_slider{
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.js_fix_slider .line{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 1;
+}
+.js_fix_slider .key{
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	top: 0;
+	background-color: red;
+	z-index: 100;
+}
+.js_fix_slider .key:hover{
+	cursor: pointer;
+}
+.js_fix_slider .js_prev{
+	left: 0;
+}
+.js_fix_slider .js_next{
+	right: 0;
+}
+.js_slidekey{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	margin-right: 10px;
+	border-radius: 100%;
+}
+.js_slidekey.active{
+	background-color: blue;
+}
+.js_slidekey:hover{
+	cursor: pointer;
+	background-color: green;
+}
+/*
+end js_fix_slider
+*/

@@ -1,0 +1,39 @@
+.map{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/map.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.point{
+	position: absolute;
+	border-radius: 100%;
+	z-index: 100;
+	width: 10px;
+	height: 10px;
+}
+.point p{
+	position: absolute;
+	display: block;
+	width: 100px;
+	top: -15px;
+	left: 10px;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 1px 2px black;
+}
+.point span{
+	position: relative;
+	float: left;
+	display: block;
+}
+.point_1{
+	background-color: red;
+	top: 41.34%;
+    left: 41.48%;
+}
+.point_2{
+	background-color: yellow;
+    top: 64.44%;
+    left: 69.1%;
+}

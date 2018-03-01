@@ -1,0 +1,15 @@
+.js_hide_show_info_key>p{
+	font-family: 'open_sansbold', Sans-serif;
+    /*margin-top: 20px;*/
+    font-size: 16px;
+    text-decoration: underline;
+    color: #F15416;
+}
+.js_hide_show_info_key>p:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.js_additional_info_hiden{
+    overflow: hidden;
+    height: 0;
+}

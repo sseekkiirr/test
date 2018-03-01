@@ -1,0 +1,12 @@
+@media only screen and (min-width: 0px) and (max-width: 480px){
+	.point_1{
+		background-color: red;
+		top: 40.34%;
+    	left: 41.1724%;
+	}
+	.point_2{
+		background-color: yellow;
+	    top: 63.8%;
+	    left: 68.3%;
+	}
+}
