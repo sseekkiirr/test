@@ -25,7 +25,7 @@
             <p><span>Маркер 1</span></p>
         </div>
         <div class="point point_2">
-            <p><span>Маркер 2</span></p>
+            <p><span>Маркер 2=)</span></p>
         </div>
     </div>
     <footer></footer>
